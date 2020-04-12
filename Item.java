@@ -21,4 +21,4 @@ class Item {
 		//TODO
 		return 0.15*(cenaItem*(taxType/100.0))
 	}
-}
+}class Receipt{Item List<item> ; Receipt(){} ;}

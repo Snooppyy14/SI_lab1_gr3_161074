@@ -2,16 +2,23 @@ class Item {
 	int id;
 	String name;
 	double price;
-	char A=18;
-	char B=5;
-	char C=0;
+	
 	//TODO add variable.
-
+	float A=18;
+	float B=5;
+	float C=0;
 	//TODO constructor
-
+	Item(int id, String name,double price)
+	  {
+	     id=this.id;
+	     name=this.name;
+	     price=this.price;
+	  }
 	//TODO setters and getters
-
+	seteri i geteri :))
+	
 	double taxReturn () {
 		//TODO
+		return 0.15*(cenaItem*(taxType/100.0))
 	}
 }
